@@ -2081,7 +2081,12 @@ escape-html@~1.0.3:
   resolved "http://registry.eazytec.com/repository/npm-eazytec/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
-escape-string-regexp@1.0.5, escape-string-regexp@^1.0.5:
+escape-string-regexp@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
+
+escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://registry.eazytec.com/repository/npm-eazytec/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
@@ -4859,12 +4864,12 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "http://registry.eazytec.com/repository/npm-eazytec/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha1-IcqVYTmarQ/xp3AcAWg+jKmB7cs=
 
-react-native-webview@^7.0.2:
-  version "7.0.2"
-  resolved "http://registry.eazytec.com/repository/npm-eazytec/react-native-webview/-/react-native-webview-7.0.2.tgz#9513444c5afe6a09842e563ee0df8a70adf36efa"
-  integrity sha1-lRNETFr+agmELlY+4N+KcK3zbvo=
+react-native-webview@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-11.0.0.tgz#d667cbcc772e963fe88a4156290d25fe47ed43b0"
+  integrity sha512-gzID5ebCFVNkxreuabClymo6QkJbXCLEtiIUY9QAhxY58HsDUp8x0YzDVEROYyEJ4ghL71koAOeQRDNAgNnh1w==
   dependencies:
-    escape-string-regexp "1.0.5"
+    escape-string-regexp "2.0.0"
     invariant "2.2.4"
 
 react-native@0.60.5:
